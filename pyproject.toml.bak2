@@ -1,0 +1,28 @@
+﻿[project]
+name = "devoir-1-conom-trie"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Jean-Simon Laverdière", email = "you@example.com" }]
+
+dependencies = [
+    "numpy>=2.3",
+    "pandas>=2.3",
+    "matplotlib>=3.10",
+    "seaborn>=0.13",
+    "statsmodels>=0.14",
+    "scipy>=1.16",
+    "scikit-learn>=1.7",
+    "jupyter>=1.1"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
+
+
+
